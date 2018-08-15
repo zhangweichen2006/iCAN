@@ -1,0 +1,917 @@
+Office-31: amazon To webcam
+Replacing the following state from initialized resnet50 : ['fc.weight', 'fc.bias']
+=> no checkpoint model
+Epoch 0/105
+----------
+Phase: train lr_mult: 0.5929 Loss: 2.9338 D_loss: 0.6775 D1_loss: 0.6902 D2_loss: 0.6915 D3_loss: 0.6909 Acc: 0.2752 D_Acc: 0.6273
+Total loss: 3.5489, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.2552 Acc: 0.5572
+Best Test Accuracy: 0.5572
+
+Epoch 1/105
+----------
+Phase: train lr_mult: 0.8781 Loss: 1.6574 D_loss: 0.6184 D1_loss: 0.6906 D2_loss: 0.6914 D3_loss: 0.6909 Acc: 0.5845 D_Acc: 0.7108
+Total loss: 2.2430, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.1343 Acc: 0.6906
+Best Test Accuracy: 0.6906
+
+Epoch 2/105
+----------
+Phase: train lr_mult: 0.8291 Loss: 1.1621 D_loss: 0.5594 D1_loss: 0.6901 D2_loss: 0.6913 D3_loss: 0.6911 Acc: 0.6761 D_Acc: 0.7198
+Total loss: 1.7182, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.1070 Acc: 0.7371
+Best Test Accuracy: 0.7371
+
+Epoch 3/105
+----------
+Phase: train lr_mult: 0.7861 Loss: 0.9788 D_loss: 0.6267 D1_loss: 0.6900 D2_loss: 0.6908 D3_loss: 0.6910 Acc: 0.7308 D_Acc: 0.6351
+Total loss: 1.5684, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.1027 Acc: 0.7648
+Best Test Accuracy: 0.7648
+
+Epoch 4/105
+----------
+Phase: train lr_mult: 0.7479 Loss: 0.8565 D_loss: 0.6860 D1_loss: 0.6897 D2_loss: 0.6908 D3_loss: 0.6910 Acc: 0.7557 D_Acc: 0.5542
+Total loss: 1.4757, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0985 Acc: 0.7610
+Best Test Accuracy: 0.7648
+
+Epoch 5/105
+----------
+Phase: train lr_mult: 0.7138 Loss: 0.8101 D_loss: 0.6272 D1_loss: 0.6900 D2_loss: 0.6906 D3_loss: 0.6908 Acc: 0.7752 D_Acc: 0.6440
+Total loss: 1.3999, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0956 Acc: 0.7623
+Best Test Accuracy: 0.7648
+
+Epoch 6/105
+----------
+Phase: train lr_mult: 0.6831 Loss: 0.7446 D_loss: 0.6147 D1_loss: 0.6902 D2_loss: 0.6908 D3_loss: 0.6909 Acc: 0.7855 D_Acc: 0.6651
+Total loss: 1.3282, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0999 Acc: 0.7623
+Best Test Accuracy: 0.7648
+
+Epoch 7/105
+----------
+Phase: train lr_mult: 0.6553 Loss: 0.6874 D_loss: 0.6340 D1_loss: 0.6897 D2_loss: 0.6906 D3_loss: 0.6910 Acc: 0.8040 D_Acc: 0.6349
+Total loss: 1.2805, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.1034 Acc: 0.7635
+Best Test Accuracy: 0.7648
+
+Epoch 8/105
+----------
+Phase: train lr_mult: 0.6300 Loss: 0.6401 D_loss: 0.6170 D1_loss: 0.6895 D2_loss: 0.6906 D3_loss: 0.6908 Acc: 0.8192 D_Acc: 0.6543
+Total loss: 1.2247, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0984 Acc: 0.7723
+Best Test Accuracy: 0.7723
+
+Epoch 9/105
+----------
+Phase: train lr_mult: 0.6069 Loss: 0.5682 D_loss: 0.6127 D1_loss: 0.6894 D2_loss: 0.6904 D3_loss: 0.6908 Acc: 0.8395 D_Acc: 0.6671
+Total loss: 1.1506, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0934 Acc: 0.7711
+Best Test Accuracy: 0.7723
+
+Epoch 10/105
+----------
+Phase: train lr_mult: 0.5857 Loss: 0.5698 D_loss: 0.6238 D1_loss: 0.6893 D2_loss: 0.6905 D3_loss: 0.6909 Acc: 0.8370 D_Acc: 0.6529
+Total loss: 1.1578, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0853 Acc: 0.7887
+Best Test Accuracy: 0.7887
+
+Epoch 11/105
+----------
+Phase: train lr_mult: 0.5661 Loss: 0.5228 D_loss: 0.6198 D1_loss: 0.6893 D2_loss: 0.6904 D3_loss: 0.6909 Acc: 0.8516 D_Acc: 0.6591
+Total loss: 1.1088, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0790 Acc: 0.8289
+Best Test Accuracy: 0.8289
+
+Epoch 12/105
+----------
+Phase: train lr_mult: 0.5480 Loss: 0.5328 D_loss: 0.6307 D1_loss: 0.6893 D2_loss: 0.6903 D3_loss: 0.6907 Acc: 0.8469 D_Acc: 0.6415
+Total loss: 1.1242, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0886 Acc: 0.7874
+Best Test Accuracy: 0.8289
+
+Epoch 13/105
+----------
+Phase: train lr_mult: 0.5312 Loss: 0.4846 D_loss: 0.6512 D1_loss: 0.6894 D2_loss: 0.6902 D3_loss: 0.6909 Acc: 0.8587 D_Acc: 0.6156
+Total loss: 1.0863, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0878 Acc: 0.7937
+Best Test Accuracy: 0.8289
+
+Epoch 14/105
+----------
+Phase: train lr_mult: 0.5155 Loss: 0.4887 D_loss: 0.6530 D1_loss: 0.6891 D2_loss: 0.6901 D3_loss: 0.6908 Acc: 0.8565 D_Acc: 0.6033
+Total loss: 1.0912, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0926 Acc: 0.7975
+Best Test Accuracy: 0.8289
+
+Epoch 15/105
+----------
+Phase: train lr_mult: 0.5009 Loss: 0.4215 D_loss: 0.6533 D1_loss: 0.6890 D2_loss: 0.6898 D3_loss: 0.6907 Acc: 0.8782 D_Acc: 0.6044
+Total loss: 1.0240, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0899 Acc: 0.7937
+Best Test Accuracy: 0.8289
+
+Epoch 16/105
+----------
+Phase: train lr_mult: 0.4872 Loss: 0.4343 D_loss: 0.6684 D1_loss: 0.6891 D2_loss: 0.6896 D3_loss: 0.6907 Acc: 0.8768 D_Acc: 0.5886
+Total loss: 1.0444, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0893 Acc: 0.8038
+Best Test Accuracy: 0.8289
+
+Epoch 17/105
+----------
+Phase: train lr_mult: 0.4744 Loss: 0.4055 D_loss: 0.6681 D1_loss: 0.6886 D2_loss: 0.6896 D3_loss: 0.6907 Acc: 0.8835 D_Acc: 0.5859
+Total loss: 1.0154, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0908 Acc: 0.7950
+Best Test Accuracy: 0.8289
+
+Epoch 18/105
+----------
+Phase: train lr_mult: 0.4623 Loss: 0.4095 D_loss: 0.6655 D1_loss: 0.6889 D2_loss: 0.6895 D3_loss: 0.6907 Acc: 0.8867 D_Acc: 0.5893
+Total loss: 1.0182, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.1009 Acc: 0.7660
+Best Test Accuracy: 0.8289
+
+Epoch 19/105
+----------
+Phase: train lr_mult: 0.4509 Loss: 0.3900 D_loss: 0.6699 D1_loss: 0.6884 D2_loss: 0.6897 D3_loss: 0.6906 Acc: 0.8931 D_Acc: 0.5835
+Total loss: 1.0008, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0935 Acc: 0.7811
+Best Test Accuracy: 0.8289
+
+Epoch 20/105
+----------
+Phase: train lr_mult: 0.4401 Loss: 0.3504 D_loss: 0.6779 D1_loss: 0.6887 D2_loss: 0.6893 D3_loss: 0.6906 Acc: 0.9009 D_Acc: 0.5605
+Total loss: 0.9651, w_main: 0.5000, 1: 0.1333, 2: 0.1333, 3: 0.1333
+Phase: test Loss: 0.0976 Acc: 0.8088
+Best Test Accuracy: 0.8289
+
+Epoch 21/105
+----------
+Pseudo size: 19 confid_threshold: 0.9188
+Phase: Pseudo_train Lr: 1.0000 Loss: 0.0158 Acc: 0.7917 Disc_Lam: 0.004983 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.4524 Loss: 0.3074 D_loss: 0.6716 D1_loss: 0.6891 D2_loss: 0.6896 D3_loss: 0.6909 Acc: 0.9176 D_Acc: 0.5721
+Total loss: 0.9191, w_main: 0.5000, 1: 0.1362, 2: 0.1353, 3: 0.1284
+Phase: test Loss: 0.0856 Acc: 0.8302
+Best Test Accuracy: 0.8302
+
+Epoch 22/105
+----------
+Pseudo size: 17 confid_threshold: 0.9235
+Phase: Pseudo_train Lr: 0.9200 Loss: 0.0201 Acc: 0.7083 Disc_Lam: 0.004955 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.4413 Loss: 0.3094 D_loss: 0.6629 D1_loss: 0.6883 D2_loss: 0.6896 D3_loss: 0.6907 Acc: 0.9126 D_Acc: 0.5816
+Total loss: 0.9166, w_main: 0.5000, 1: 0.1400, 2: 0.1371, 3: 0.1229
+Phase: test Loss: 0.0845 Acc: 0.8277
+Best Test Accuracy: 0.8302
+
+Epoch 23/105
+----------
+Pseudo size: 20 confid_threshold: 0.9229
+Phase: Pseudo_train Lr: 0.8534 Loss: 0.0146 Acc: 0.8333 Disc_Lam: 0.004927 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.4308 Loss: 0.2994 D_loss: 0.6729 D1_loss: 0.6887 D2_loss: 0.6897 D3_loss: 0.6908 Acc: 0.9157 D_Acc: 0.5673
+Total loss: 0.9117, w_main: 0.5000, 1: 0.1431, 2: 0.1387, 3: 0.1182
+Phase: test Loss: 0.0855 Acc: 0.8226
+Best Test Accuracy: 0.8302
+
+Epoch 24/105
+----------
+Pseudo size: 16 confid_threshold: 0.9219
+Phase: Pseudo_train Lr: 0.7972 Loss: 0.0125 Acc: 1.0000 Disc_Lam: 0.004910 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.4209 Loss: 0.2958 D_loss: 0.6726 D1_loss: 0.6887 D2_loss: 0.6895 D3_loss: 0.6907 Acc: 0.9173 D_Acc: 0.5751
+Total loss: 0.9079, w_main: 0.5000, 1: 0.1459, 2: 0.1403, 3: 0.1138
+Phase: test Loss: 0.0859 Acc: 0.8201
+Best Test Accuracy: 0.8302
+
+Epoch 25/105
+----------
+Pseudo size: 9 confid_threshold: 0.9213
+Phase: Pseudo_train Lr: 0.7488 Loss: 0.0183 Acc: 0.5625 Disc_Lam: 0.004889 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.4115 Loss: 0.2789 D_loss: 0.6694 D1_loss: 0.6889 D2_loss: 0.6895 D3_loss: 0.6908 Acc: 0.9251 D_Acc: 0.5780
+Total loss: 0.8895, w_main: 0.5000, 1: 0.1485, 2: 0.1420, 3: 0.1095
+Phase: test Loss: 0.0770 Acc: 0.8403
+Best Test Accuracy: 0.8403
+
+Epoch 26/105
+----------
+Pseudo size: 26 confid_threshold: 0.9256
+Phase: Pseudo_train Lr: 0.7068 Loss: 0.0166 Acc: 0.8125 Disc_Lam: 0.004854 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.4026 Loss: 0.2760 D_loss: 0.6662 D1_loss: 0.6886 D2_loss: 0.6895 D3_loss: 0.6907 Acc: 0.9232 D_Acc: 0.5804
+Total loss: 0.8849, w_main: 0.5000, 1: 0.1510, 2: 0.1435, 3: 0.1055
+Phase: test Loss: 0.0781 Acc: 0.8428
+Best Test Accuracy: 0.8428
+
+Epoch 27/105
+----------
+Pseudo size: 11 confid_threshold: 0.9261
+Phase: Pseudo_train Lr: 0.6699 Loss: 0.0087 Acc: 0.6875 Disc_Lam: 0.004836 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3941 Loss: 0.2849 D_loss: 0.6715 D1_loss: 0.6886 D2_loss: 0.6891 D3_loss: 0.6907 Acc: 0.9173 D_Acc: 0.5801
+Total loss: 0.8963, w_main: 0.5000, 1: 0.1536, 2: 0.1454, 3: 0.1010
+Phase: test Loss: 0.0774 Acc: 0.8478
+Best Test Accuracy: 0.8478
+
+Epoch 28/105
+----------
+Pseudo size: 20 confid_threshold: 0.9271
+Phase: Pseudo_train Lr: 0.6373 Loss: 0.0053 Acc: 0.8333 Disc_Lam: 0.004811 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3860 Loss: 0.2783 D_loss: 0.6718 D1_loss: 0.6882 D2_loss: 0.6891 D3_loss: 0.6907 Acc: 0.9226 D_Acc: 0.5690
+Total loss: 0.8899, w_main: 0.5000, 1: 0.1564, 2: 0.1472, 3: 0.0964
+Phase: test Loss: 0.0718 Acc: 0.8503
+Best Test Accuracy: 0.8503
+
+Epoch 29/105
+----------
+Pseudo size: 21 confid_threshold: 0.9276
+Phase: Pseudo_train Lr: 0.6081 Loss: 0.0097 Acc: 0.8750 Disc_Lam: 0.004791 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3783 Loss: 0.2692 D_loss: 0.6660 D1_loss: 0.6883 D2_loss: 0.6891 D3_loss: 0.6907 Acc: 0.9269 D_Acc: 0.5868
+Total loss: 0.8778, w_main: 0.5000, 1: 0.1590, 2: 0.1489, 3: 0.0921
+Phase: test Loss: 0.0828 Acc: 0.8428
+Best Test Accuracy: 0.8503
+
+Epoch 30/105
+----------
+Pseudo size: 21 confid_threshold: 0.9261
+Phase: Pseudo_train Lr: 0.5818 Loss: 0.0066 Acc: 0.8750 Disc_Lam: 0.004771 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3710 Loss: 0.2428 D_loss: 0.6691 D1_loss: 0.6881 D2_loss: 0.6891 D3_loss: 0.6907 Acc: 0.9279 D_Acc: 0.5757
+Total loss: 0.8529, w_main: 0.5000, 1: 0.1616, 2: 0.1505, 3: 0.0879
+Phase: test Loss: 0.0687 Acc: 0.8503
+Best Test Accuracy: 0.8503
+
+Epoch 31/105
+----------
+Pseudo size: 9 confid_threshold: 0.9276
+Phase: Pseudo_train Lr: 0.5581 Loss: 0.0033 Acc: 0.5625 Disc_Lam: 0.004760 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3639 Loss: 0.2365 D_loss: 0.6710 D1_loss: 0.6878 D2_loss: 0.6887 D3_loss: 0.6907 Acc: 0.9347 D_Acc: 0.5759
+Total loss: 0.8475, w_main: 0.5000, 1: 0.1644, 2: 0.1524, 3: 0.0831
+Phase: test Loss: 0.0696 Acc: 0.8415
+Best Test Accuracy: 0.8503
+
+Epoch 32/105
+----------
+Pseudo size: 22 confid_threshold: 0.9258
+Phase: Pseudo_train Lr: 0.5365 Loss: 0.0137 Acc: 0.9167 Disc_Lam: 0.004746 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3572 Loss: 0.2534 D_loss: 0.6720 D1_loss: 0.6881 D2_loss: 0.6888 D3_loss: 0.6905 Acc: 0.9297 D_Acc: 0.5760
+Total loss: 0.8649, w_main: 0.5000, 1: 0.1667, 2: 0.1541, 3: 0.0792
+Phase: test Loss: 0.0711 Acc: 0.8465
+Best Test Accuracy: 0.8503
+
+Epoch 33/105
+----------
+Pseudo size: 19 confid_threshold: 0.9269
+Phase: Pseudo_train Lr: 0.5167 Loss: 0.0053 Acc: 0.7917 Disc_Lam: 0.004733 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3508 Loss: 0.2628 D_loss: 0.6631 D1_loss: 0.6881 D2_loss: 0.6890 D3_loss: 0.6907 Acc: 0.9248 D_Acc: 0.5950
+Total loss: 0.8699, w_main: 0.5000, 1: 0.1690, 2: 0.1556, 3: 0.0754
+Phase: test Loss: 0.0702 Acc: 0.8528
+Best Test Accuracy: 0.8528
+
+Epoch 34/105
+----------
+Pseudo size: 21 confid_threshold: 0.9281
+Phase: Pseudo_train Lr: 0.4986 Loss: 0.0129 Acc: 0.8750 Disc_Lam: 0.004720 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3446 Loss: 0.2495 D_loss: 0.6718 D1_loss: 0.6876 D2_loss: 0.6889 D3_loss: 0.6907 Acc: 0.9294 D_Acc: 0.5723
+Total loss: 0.8608, w_main: 0.5000, 1: 0.1716, 2: 0.1571, 3: 0.0713
+Phase: test Loss: 0.0752 Acc: 0.8478
+Best Test Accuracy: 0.8528
+
+Epoch 35/105
+----------
+Pseudo size: 31 confid_threshold: 0.9271
+Phase: Pseudo_train Lr: 0.4819 Loss: 0.0093 Acc: 0.9688 Disc_Lam: 0.004706 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3387 Loss: 0.2545 D_loss: 0.6743 D1_loss: 0.6878 D2_loss: 0.6888 D3_loss: 0.6908 Acc: 0.9297 D_Acc: 0.5690
+Total loss: 0.8671, w_main: 0.5000, 1: 0.1740, 2: 0.1587, 3: 0.0673
+Phase: test Loss: 0.0701 Acc: 0.8667
+Best Test Accuracy: 0.8667
+
+Epoch 36/105
+----------
+Pseudo size: 28 confid_threshold: 0.9309
+Phase: Pseudo_train Lr: 0.4664 Loss: 0.0058 Acc: 0.8750 Disc_Lam: 0.004698 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3330 Loss: 0.2421 D_loss: 0.6702 D1_loss: 0.6875 D2_loss: 0.6887 D3_loss: 0.6907 Acc: 0.9347 D_Acc: 0.5821
+Total loss: 0.8526, w_main: 0.5000, 1: 0.1765, 2: 0.1603, 3: 0.0632
+Phase: test Loss: 0.0723 Acc: 0.8465
+Best Test Accuracy: 0.8667
+
+Epoch 37/105
+----------
+Pseudo size: 29 confid_threshold: 0.9269
+Phase: Pseudo_train Lr: 0.4521 Loss: 0.0110 Acc: 0.9062 Disc_Lam: 0.004691 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3275 Loss: 0.2584 D_loss: 0.6734 D1_loss: 0.6874 D2_loss: 0.6887 D3_loss: 0.6905 Acc: 0.9257 D_Acc: 0.5721
+Total loss: 0.8704, w_main: 0.5000, 1: 0.1789, 2: 0.1617, 3: 0.0594
+Phase: test Loss: 0.0665 Acc: 0.8642
+Best Test Accuracy: 0.8667
+
+Epoch 38/105
+----------
+Pseudo size: 23 confid_threshold: 0.9304
+Phase: Pseudo_train Lr: 0.4387 Loss: 0.0043 Acc: 0.9583 Disc_Lam: 0.004684 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3222 Loss: 0.2337 D_loss: 0.6691 D1_loss: 0.6875 D2_loss: 0.6885 D3_loss: 0.6905 Acc: 0.9350 D_Acc: 0.5832
+Total loss: 0.8436, w_main: 0.5000, 1: 0.1810, 2: 0.1631, 3: 0.0558
+Phase: test Loss: 0.0731 Acc: 0.8478
+Best Test Accuracy: 0.8667
+
+Epoch 39/105
+----------
+Pseudo size: 21 confid_threshold: 0.9271
+Phase: Pseudo_train Lr: 0.4262 Loss: 0.0149 Acc: 0.8750 Disc_Lam: 0.004677 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3171 Loss: 0.2342 D_loss: 0.6749 D1_loss: 0.6876 D2_loss: 0.6885 D3_loss: 0.6907 Acc: 0.9331 D_Acc: 0.5706
+Total loss: 0.8470, w_main: 0.5000, 1: 0.1832, 2: 0.1647, 3: 0.0522
+Phase: test Loss: 0.0632 Acc: 0.8818
+Best Test Accuracy: 0.8818
+
+Epoch 40/105
+----------
+Pseudo size: 24 confid_threshold: 0.9337
+Phase: Pseudo_train Lr: 0.4145 Loss: 0.0109 Acc: 1.0000 Disc_Lam: 0.004669 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3122 Loss: 0.2260 D_loss: 0.6738 D1_loss: 0.6873 D2_loss: 0.6884 D3_loss: 0.6907 Acc: 0.9356 D_Acc: 0.5763
+Total loss: 0.8382, w_main: 0.5000, 1: 0.1854, 2: 0.1661, 3: 0.0485
+Phase: test Loss: 0.0615 Acc: 0.8667
+Best Test Accuracy: 0.8818
+
+Epoch 41/105
+----------
+Pseudo size: 32 confid_threshold: 0.9309
+Phase: Pseudo_train Lr: 0.4036 Loss: 0.0069 Acc: 1.0000 Disc_Lam: 0.004659 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3075 Loss: 0.2141 D_loss: 0.6725 D1_loss: 0.6872 D2_loss: 0.6884 D3_loss: 0.6904 Acc: 0.9443 D_Acc: 0.5779
+Total loss: 0.8255, w_main: 0.5000, 1: 0.1874, 2: 0.1674, 3: 0.0452
+Phase: test Loss: 0.0612 Acc: 0.8717
+Best Test Accuracy: 0.8818
+
+Epoch 42/105
+----------
+Pseudo size: 45 confid_threshold: 0.9318
+Phase: Pseudo_train Lr: 0.3933 Loss: 0.0101 Acc: 0.9375 Disc_Lam: 0.004648 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.3030 Loss: 0.2207 D_loss: 0.6750 D1_loss: 0.6871 D2_loss: 0.6880 D3_loss: 0.6906 Acc: 0.9440 D_Acc: 0.5752
+Total loss: 0.8333, w_main: 0.5000, 1: 0.1896, 2: 0.1690, 3: 0.0414
+Phase: test Loss: 0.0594 Acc: 0.8755
+Best Test Accuracy: 0.8818
+
+Epoch 43/105
+----------
+Pseudo size: 36 confid_threshold: 0.9325
+Phase: Pseudo_train Lr: 0.3836 Loss: 0.0043 Acc: 0.9000 Disc_Lam: 0.004640 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2986 Loss: 0.2297 D_loss: 0.6768 D1_loss: 0.6869 D2_loss: 0.6882 D3_loss: 0.6906 Acc: 0.9391 D_Acc: 0.5669
+Total loss: 0.8432, w_main: 0.5000, 1: 0.1917, 2: 0.1704, 3: 0.0378
+Phase: test Loss: 0.0564 Acc: 0.8792
+Best Test Accuracy: 0.8818
+
+Epoch 44/105
+----------
+Pseudo size: 33 confid_threshold: 0.9333
+Phase: Pseudo_train Lr: 0.3744 Loss: 0.0129 Acc: 0.8250 Disc_Lam: 0.004629 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2943 Loss: 0.2277 D_loss: 0.6723 D1_loss: 0.6868 D2_loss: 0.6882 D3_loss: 0.6906 Acc: 0.9359 D_Acc: 0.5715
+Total loss: 0.8389, w_main: 0.5000, 1: 0.1938, 2: 0.1717, 3: 0.0345
+Phase: test Loss: 0.0571 Acc: 0.8918
+Best Test Accuracy: 0.8918
+
+Epoch 45/105
+----------
+Pseudo size: 33 confid_threshold: 0.9356
+Phase: Pseudo_train Lr: 0.3657 Loss: 0.0108 Acc: 0.8250 Disc_Lam: 0.004620 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2902 Loss: 0.2249 D_loss: 0.6739 D1_loss: 0.6871 D2_loss: 0.6880 D3_loss: 0.6907 Acc: 0.9369 D_Acc: 0.5709
+Total loss: 0.8369, w_main: 0.5000, 1: 0.1958, 2: 0.1732, 3: 0.0310
+Phase: test Loss: 0.0590 Acc: 0.8881
+Best Test Accuracy: 0.8918
+
+Epoch 46/105
+----------
+Pseudo size: 40 confid_threshold: 0.9349
+Phase: Pseudo_train Lr: 0.3575 Loss: 0.0082 Acc: 1.0000 Disc_Lam: 0.004612 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2862 Loss: 0.2194 D_loss: 0.6707 D1_loss: 0.6865 D2_loss: 0.6878 D3_loss: 0.6907 Acc: 0.9369 D_Acc: 0.5847
+Total loss: 0.8297, w_main: 0.5000, 1: 0.1979, 2: 0.1747, 3: 0.0274
+Phase: test Loss: 0.0586 Acc: 0.8893
+Best Test Accuracy: 0.8918
+
+Epoch 47/105
+----------
+Pseudo size: 32 confid_threshold: 0.9351
+Phase: Pseudo_train Lr: 0.3497 Loss: 0.0073 Acc: 1.0000 Disc_Lam: 0.004608 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2823 Loss: 0.2118 D_loss: 0.6765 D1_loss: 0.6862 D2_loss: 0.6878 D3_loss: 0.6905 Acc: 0.9363 D_Acc: 0.5738
+Total loss: 0.8249, w_main: 0.5000, 1: 0.2000, 2: 0.1760, 3: 0.0240
+Phase: test Loss: 0.0576 Acc: 0.8868
+Best Test Accuracy: 0.8918
+
+Epoch 48/105
+----------
+Pseudo size: 40 confid_threshold: 0.9346
+Phase: Pseudo_train Lr: 0.3423 Loss: 0.0057 Acc: 1.0000 Disc_Lam: 0.004600 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2786 Loss: 0.2198 D_loss: 0.6770 D1_loss: 0.6862 D2_loss: 0.6876 D3_loss: 0.6906 Acc: 0.9384 D_Acc: 0.5669
+Total loss: 0.8331, w_main: 0.5000, 1: 0.2021, 2: 0.1774, 3: 0.0205
+Phase: test Loss: 0.0540 Acc: 0.8918
+Best Test Accuracy: 0.8918
+
+Epoch 49/105
+----------
+Pseudo size: 38 confid_threshold: 0.9356
+Phase: Pseudo_train Lr: 0.3352 Loss: 0.0127 Acc: 0.9500 Disc_Lam: 0.004594 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2750 Loss: 0.2054 D_loss: 0.6728 D1_loss: 0.6859 D2_loss: 0.6877 D3_loss: 0.6907 Acc: 0.9409 D_Acc: 0.5773
+Total loss: 0.8166, w_main: 0.5000, 1: 0.2042, 2: 0.1787, 3: 0.0171
+Phase: test Loss: 0.0625 Acc: 0.8881
+Best Test Accuracy: 0.8918
+
+Epoch 50/105
+----------
+Pseudo size: 53 confid_threshold: 0.9349
+Phase: Pseudo_train Lr: 0.3285 Loss: 0.0034 Acc: 0.9464 Disc_Lam: 0.004577 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2714 Loss: 0.1946 D_loss: 0.6770 D1_loss: 0.6861 D2_loss: 0.6877 D3_loss: 0.6906 Acc: 0.9434 D_Acc: 0.5665
+Total loss: 0.8080, w_main: 0.5000, 1: 0.2062, 2: 0.1800, 3: 0.0139
+Phase: test Loss: 0.0606 Acc: 0.8742
+Best Test Accuracy: 0.8918
+
+Epoch 51/105
+----------
+Pseudo size: 41 confid_threshold: 0.9323
+Phase: Pseudo_train Lr: 0.3221 Loss: 0.0069 Acc: 0.8542 Disc_Lam: 0.004566 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2680 Loss: 0.2020 D_loss: 0.6772 D1_loss: 0.6859 D2_loss: 0.6875 D3_loss: 0.6905 Acc: 0.9419 D_Acc: 0.5690
+Total loss: 0.8153, w_main: 0.5000, 1: 0.2081, 2: 0.1812, 3: 0.0107
+Phase: test Loss: 0.0655 Acc: 0.8742
+Best Test Accuracy: 0.8918
+
+Epoch 52/105
+----------
+Pseudo size: 44 confid_threshold: 0.9323
+Phase: Pseudo_train Lr: 0.3159 Loss: 0.0095 Acc: 0.9167 Disc_Lam: 0.004557 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2647 Loss: 0.1930 D_loss: 0.6765 D1_loss: 0.6863 D2_loss: 0.6875 D3_loss: 0.6905 Acc: 0.9456 D_Acc: 0.5667
+Total loss: 0.8060, w_main: 0.5000, 1: 0.2097, 2: 0.1824, 3: 0.0079
+Phase: test Loss: 0.0672 Acc: 0.8755
+Best Test Accuracy: 0.8918
+
+Epoch 53/105
+----------
+Pseudo size: 34 confid_threshold: 0.9325
+Phase: Pseudo_train Lr: 0.3101 Loss: 0.0146 Acc: 0.8500 Disc_Lam: 0.004553 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2615 Loss: 0.1850 D_loss: 0.6728 D1_loss: 0.6858 D2_loss: 0.6874 D3_loss: 0.6906 Acc: 0.9468 D_Acc: 0.5765
+Total loss: 0.7960, w_main: 0.5000, 1: 0.2115, 2: 0.1836, 3: 0.0049
+Phase: test Loss: 0.0703 Acc: 0.8792
+Best Test Accuracy: 0.8918
+
+Epoch 54/105
+----------
+Pseudo size: 43 confid_threshold: 0.9333
+Phase: Pseudo_train Lr: 0.3045 Loss: 0.0054 Acc: 0.8958 Disc_Lam: 0.004549 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2584 Loss: 0.1941 D_loss: 0.6752 D1_loss: 0.6856 D2_loss: 0.6871 D3_loss: 0.6907 Acc: 0.9484 D_Acc: 0.5771
+Total loss: 0.8062, w_main: 0.5000, 1: 0.2134, 2: 0.1849, 3: 0.0017
+Phase: test Loss: 0.0623 Acc: 0.8969
+Best Test Accuracy: 0.8969
+
+Epoch 55/105
+----------
+Pseudo size: 33 confid_threshold: 0.9365
+Phase: Pseudo_train Lr: 0.2991 Loss: 0.0054 Acc: 0.8250 Disc_Lam: 0.004546 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2553 Loss: 0.1890 D_loss: 0.6748 D1_loss: 0.6855 D2_loss: 0.6872 D3_loss: 0.6906 Acc: 0.9459 D_Acc: 0.5712
+Total loss: 0.8009, w_main: 0.5000, 1: 0.2140, 2: 0.1849, 3: 0.0011
+Phase: test Loss: 0.0655 Acc: 0.8843
+Best Test Accuracy: 0.8969
+
+Epoch 56/105
+----------
+Pseudo size: 39 confid_threshold: 0.9342
+Phase: Pseudo_train Lr: 0.2939 Loss: 0.0114 Acc: 0.9750 Disc_Lam: 0.004543 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2523 Loss: 0.1835 D_loss: 0.6743 D1_loss: 0.6857 D2_loss: 0.6868 D3_loss: 0.6906 Acc: 0.9447 D_Acc: 0.5712
+Total loss: 0.7951, w_main: 0.5000, 1: 0.2145, 2: 0.1850, 3: 0.0005
+Phase: test Loss: 0.0656 Acc: 0.8805
+Best Test Accuracy: 0.8969
+
+Epoch 57/105
+----------
+Pseudo size: 30 confid_threshold: 0.9335
+Phase: Pseudo_train Lr: 0.2889 Loss: 0.0109 Acc: 0.9375 Disc_Lam: 0.004542 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2495 Loss: 0.1740 D_loss: 0.6762 D1_loss: 0.6851 D2_loss: 0.6869 D3_loss: 0.6906 Acc: 0.9509 D_Acc: 0.5566
+Total loss: 0.7865, w_main: 0.5000, 1: 0.2142, 2: 0.1841, 3: 0.0017
+Phase: test Loss: 0.0660 Acc: 0.8818
+Best Test Accuracy: 0.8969
+
+Epoch 58/105
+----------
+Pseudo size: 28 confid_threshold: 0.9337
+Phase: Pseudo_train Lr: 0.2842 Loss: 0.0107 Acc: 0.8750 Disc_Lam: 0.004540 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2466 Loss: 0.1879 D_loss: 0.6748 D1_loss: 0.6852 D2_loss: 0.6869 D3_loss: 0.6905 Acc: 0.9434 D_Acc: 0.5661
+Total loss: 0.7997, w_main: 0.5000, 1: 0.2146, 2: 0.1840, 3: 0.0014
+Phase: test Loss: 0.0544 Acc: 0.8893
+Best Test Accuracy: 0.8969
+
+Epoch 59/105
+----------
+Pseudo size: 30 confid_threshold: 0.9351
+Phase: Pseudo_train Lr: 0.2796 Loss: 0.0057 Acc: 0.9375 Disc_Lam: 0.004538 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2439 Loss: 0.1897 D_loss: 0.6799 D1_loss: 0.6853 D2_loss: 0.6868 D3_loss: 0.6906 Acc: 0.9499 D_Acc: 0.5608
+Total loss: 0.8040, w_main: 0.5000, 1: 0.2152, 2: 0.1842, 3: 0.0006
+Phase: test Loss: 0.0542 Acc: 0.9107
+Best Test Accuracy: 0.9107
+
+Epoch 60/105
+----------
+Pseudo size: 51 confid_threshold: 0.9389
+Phase: Pseudo_train Lr: 0.2751 Loss: 0.0099 Acc: 0.9107 Disc_Lam: 0.004531 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2412 Loss: 0.2055 D_loss: 0.6797 D1_loss: 0.6851 D2_loss: 0.6866 D3_loss: 0.6906 Acc: 0.9425 D_Acc: 0.5667
+Total loss: 0.8197, w_main: 0.5000, 1: 0.2150, 2: 0.1836, 3: 0.0014
+Phase: test Loss: 0.0511 Acc: 0.9119
+Best Test Accuracy: 0.9119
+
+Epoch 61/105
+----------
+Pseudo size: 34 confid_threshold: 0.9391
+Phase: Pseudo_train Lr: 0.2709 Loss: 0.0181 Acc: 0.8500 Disc_Lam: 0.004524 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2386 Loss: 0.2076 D_loss: 0.6781 D1_loss: 0.6850 D2_loss: 0.6869 D3_loss: 0.6906 Acc: 0.9409 D_Acc: 0.5726
+Total loss: 0.8211, w_main: 0.5000, 1: 0.2154, 2: 0.1834, 3: 0.0012
+Phase: test Loss: 0.0535 Acc: 0.9044
+Best Test Accuracy: 0.9119
+
+Epoch 62/105
+----------
+Pseudo size: 50 confid_threshold: 0.9378
+Phase: Pseudo_train Lr: 0.2668 Loss: 0.0059 Acc: 0.8929 Disc_Lam: 0.004511 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2361 Loss: 0.1721 D_loss: 0.6744 D1_loss: 0.6846 D2_loss: 0.6866 D3_loss: 0.6906 Acc: 0.9549 D_Acc: 0.5785
+Total loss: 0.7835, w_main: 0.5000, 1: 0.2161, 2: 0.1836, 3: 0.0004
+Phase: test Loss: 0.0507 Acc: 0.9157
+Best Test Accuracy: 0.9157
+
+Epoch 63/105
+----------
+Pseudo size: 47 confid_threshold: 0.9398
+Phase: Pseudo_train Lr: 0.2628 Loss: 0.0055 Acc: 0.9792 Disc_Lam: 0.004506 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2336 Loss: 0.1753 D_loss: 0.6795 D1_loss: 0.6846 D2_loss: 0.6866 D3_loss: 0.6906 Acc: 0.9506 D_Acc: 0.5631
+Total loss: 0.7893, w_main: 0.5000, 1: 0.2159, 2: 0.1828, 3: 0.0013
+Phase: test Loss: 0.0486 Acc: 0.9208
+Best Test Accuracy: 0.9208
+
+Epoch 64/105
+----------
+Pseudo size: 51 confid_threshold: 0.9406
+Phase: Pseudo_train Lr: 0.2589 Loss: 0.0105 Acc: 0.9107 Disc_Lam: 0.004500 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2312 Loss: 0.1715 D_loss: 0.6768 D1_loss: 0.6850 D2_loss: 0.6867 D3_loss: 0.6906 Acc: 0.9512 D_Acc: 0.5675
+Total loss: 0.7842, w_main: 0.5000, 1: 0.2164, 2: 0.1829, 3: 0.0007
+Phase: test Loss: 0.0532 Acc: 0.9057
+Best Test Accuracy: 0.9208
+
+Epoch 65/105
+----------
+Pseudo size: 44 confid_threshold: 0.9380
+Phase: Pseudo_train Lr: 0.2552 Loss: 0.0166 Acc: 0.9167 Disc_Lam: 0.004495 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2289 Loss: 0.1780 D_loss: 0.6756 D1_loss: 0.6847 D2_loss: 0.6865 D3_loss: 0.6906 Acc: 0.9521 D_Acc: 0.5633
+Total loss: 0.7900, w_main: 0.5000, 1: 0.2167, 2: 0.1828, 3: 0.0004
+Phase: test Loss: 0.0476 Acc: 0.9220
+Best Test Accuracy: 0.9220
+
+Epoch 66/105
+----------
+Pseudo size: 37 confid_threshold: 0.9408
+Phase: Pseudo_train Lr: 0.2517 Loss: 0.0105 Acc: 0.9250 Disc_Lam: 0.004490 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2266 Loss: 0.1690 D_loss: 0.6782 D1_loss: 0.6846 D2_loss: 0.6864 D3_loss: 0.6907 Acc: 0.9518 D_Acc: 0.5645
+Total loss: 0.7823, w_main: 0.5000, 1: 0.2168, 2: 0.1825, 3: 0.0008
+Phase: test Loss: 0.0454 Acc: 0.9132
+Best Test Accuracy: 0.9220
+
+Epoch 67/105
+----------
+Pseudo size: 43 confid_threshold: 0.9393
+Phase: Pseudo_train Lr: 0.2482 Loss: 0.0089 Acc: 0.8958 Disc_Lam: 0.004488 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2243 Loss: 0.1716 D_loss: 0.6783 D1_loss: 0.6844 D2_loss: 0.6866 D3_loss: 0.6905 Acc: 0.9530 D_Acc: 0.5656
+Total loss: 0.7849, w_main: 0.5000, 1: 0.2173, 2: 0.1826, 3: 0.0001
+Phase: test Loss: 0.0509 Acc: 0.9170
+Best Test Accuracy: 0.9220
+
+Epoch 68/105
+----------
+Pseudo size: 46 confid_threshold: 0.9400
+Phase: Pseudo_train Lr: 0.2448 Loss: 0.0051 Acc: 0.9583 Disc_Lam: 0.004485 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2221 Loss: 0.1864 D_loss: 0.6780 D1_loss: 0.6841 D2_loss: 0.6863 D3_loss: 0.6905 Acc: 0.9462 D_Acc: 0.5731
+Total loss: 0.7995, w_main: 0.5000, 1: 0.2172, 2: 0.1820, 3: 0.0008
+Phase: test Loss: 0.0472 Acc: 0.9132
+Best Test Accuracy: 0.9220
+
+Epoch 69/105
+----------
+Pseudo size: 45 confid_threshold: 0.9393
+Phase: Pseudo_train Lr: 0.2416 Loss: 0.0045 Acc: 0.9375 Disc_Lam: 0.004484 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2200 Loss: 0.1634 D_loss: 0.6775 D1_loss: 0.6840 D2_loss: 0.6860 D3_loss: 0.6906 Acc: 0.9552 D_Acc: 0.5639
+Total loss: 0.7761, w_main: 0.5000, 1: 0.2173, 2: 0.1816, 3: 0.0011
+Phase: test Loss: 0.0466 Acc: 0.9208
+Best Test Accuracy: 0.9220
+
+Epoch 70/105
+----------
+Pseudo size: 56 confid_threshold: 0.9406
+Phase: Pseudo_train Lr: 0.2384 Loss: 0.0047 Acc: 1.0000 Disc_Lam: 0.004485 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2179 Loss: 0.1709 D_loss: 0.6761 D1_loss: 0.6838 D2_loss: 0.6859 D3_loss: 0.6906 Acc: 0.9493 D_Acc: 0.5725
+Total loss: 0.7829, w_main: 0.5000, 1: 0.2179, 2: 0.1818, 3: 0.0004
+Phase: test Loss: 0.0489 Acc: 0.9220
+Best Test Accuracy: 0.9220
+
+Epoch 71/105
+----------
+Pseudo size: 23 confid_threshold: 0.9408
+Phase: Pseudo_train Lr: 0.2353 Loss: 0.0050 Acc: 0.9583 Disc_Lam: 0.004486 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2158 Loss: 0.1527 D_loss: 0.6794 D1_loss: 0.6838 D2_loss: 0.6859 D3_loss: 0.6908 Acc: 0.9562 D_Acc: 0.5630
+Total loss: 0.7663, w_main: 0.5000, 1: 0.2179, 2: 0.1814, 3: 0.0007
+Phase: test Loss: 0.0500 Acc: 0.9233
+Best Test Accuracy: 0.9233
+
+Epoch 72/105
+----------
+Pseudo size: 41 confid_threshold: 0.9410
+Phase: Pseudo_train Lr: 0.2324 Loss: 0.0064 Acc: 0.8542 Disc_Lam: 0.004487 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2138 Loss: 0.1630 D_loss: 0.6781 D1_loss: 0.6838 D2_loss: 0.6858 D3_loss: 0.6905 Acc: 0.9484 D_Acc: 0.5667
+Total loss: 0.7759, w_main: 0.5000, 1: 0.2179, 2: 0.1811, 3: 0.0010
+Phase: test Loss: 0.0442 Acc: 0.9258
+Best Test Accuracy: 0.9258
+
+Epoch 73/105
+----------
+Pseudo size: 44 confid_threshold: 0.9414
+Phase: Pseudo_train Lr: 0.2295 Loss: 0.0080 Acc: 0.9167 Disc_Lam: 0.004487 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2118 Loss: 0.1480 D_loss: 0.6761 D1_loss: 0.6838 D2_loss: 0.6857 D3_loss: 0.6904 Acc: 0.9571 D_Acc: 0.5673
+Total loss: 0.7599, w_main: 0.5000, 1: 0.2184, 2: 0.1813, 3: 0.0003
+Phase: test Loss: 0.0443 Acc: 0.9258
+Best Test Accuracy: 0.9258
+
+Epoch 74/105
+----------
+Pseudo size: 33 confid_threshold: 0.9414
+Phase: Pseudo_train Lr: 0.2267 Loss: 0.0158 Acc: 0.8250 Disc_Lam: 0.004488 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2099 Loss: 0.1575 D_loss: 0.6787 D1_loss: 0.6832 D2_loss: 0.6856 D3_loss: 0.6906 Acc: 0.9577 D_Acc: 0.5700
+Total loss: 0.7705, w_main: 0.5000, 1: 0.2185, 2: 0.1809, 3: 0.0006
+Phase: test Loss: 0.0454 Acc: 0.9157
+Best Test Accuracy: 0.9258
+
+Epoch 75/105
+----------
+Pseudo size: 55 confid_threshold: 0.9398
+Phase: Pseudo_train Lr: 0.2240 Loss: 0.0042 Acc: 0.9821 Disc_Lam: 0.004489 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2080 Loss: 0.1685 D_loss: 0.6777 D1_loss: 0.6834 D2_loss: 0.6855 D3_loss: 0.6906 Acc: 0.9546 D_Acc: 0.5637
+Total loss: 0.7812, w_main: 0.5000, 1: 0.2185, 2: 0.1806, 3: 0.0008
+Phase: test Loss: 0.0495 Acc: 0.9182
+Best Test Accuracy: 0.9258
+
+Epoch 76/105
+----------
+Pseudo size: 41 confid_threshold: 0.9402
+Phase: Pseudo_train Lr: 0.2213 Loss: 0.0021 Acc: 0.8542 Disc_Lam: 0.004491 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2062 Loss: 0.1673 D_loss: 0.6776 D1_loss: 0.6832 D2_loss: 0.6855 D3_loss: 0.6905 Acc: 0.9565 D_Acc: 0.5661
+Total loss: 0.7798, w_main: 0.5000, 1: 0.2189, 2: 0.1806, 3: 0.0006
+Phase: test Loss: 0.0422 Acc: 0.9270
+Best Test Accuracy: 0.9270
+
+Epoch 77/105
+----------
+Pseudo size: 36 confid_threshold: 0.9416
+Phase: Pseudo_train Lr: 0.2187 Loss: 0.0042 Acc: 0.9000 Disc_Lam: 0.004492 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2044 Loss: 0.1635 D_loss: 0.6802 D1_loss: 0.6832 D2_loss: 0.6855 D3_loss: 0.6906 Acc: 0.9537 D_Acc: 0.5625
+Total loss: 0.7773, w_main: 0.5000, 1: 0.2192, 2: 0.1806, 3: 0.0002
+Phase: test Loss: 0.0437 Acc: 0.9258
+Best Test Accuracy: 0.9270
+
+Epoch 78/105
+----------
+Pseudo size: 41 confid_threshold: 0.9414
+Phase: Pseudo_train Lr: 0.2162 Loss: 0.0204 Acc: 0.8542 Disc_Lam: 0.004492 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2026 Loss: 0.1649 D_loss: 0.6806 D1_loss: 0.6832 D2_loss: 0.6854 D3_loss: 0.6905 Acc: 0.9509 D_Acc: 0.5689
+Total loss: 0.7789, w_main: 0.5000, 1: 0.2193, 2: 0.1803, 3: 0.0004
+Phase: test Loss: 0.0467 Acc: 0.9182
+Best Test Accuracy: 0.9270
+
+Epoch 79/105
+----------
+Pseudo size: 51 confid_threshold: 0.9402
+Phase: Pseudo_train Lr: 0.2138 Loss: 0.0081 Acc: 0.9107 Disc_Lam: 0.004488 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.2009 Loss: 0.1368 D_loss: 0.6778 D1_loss: 0.6832 D2_loss: 0.6855 D3_loss: 0.6905 Acc: 0.9605 D_Acc: 0.5617
+Total loss: 0.7493, w_main: 0.5000, 1: 0.2193, 2: 0.1801, 3: 0.0006
+Phase: test Loss: 0.0509 Acc: 0.9182
+Best Test Accuracy: 0.9270
+
+Epoch 80/105
+----------
+Pseudo size: 44 confid_threshold: 0.9402
+Phase: Pseudo_train Lr: 0.2114 Loss: 0.0067 Acc: 0.9167 Disc_Lam: 0.004487 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1992 Loss: 0.1652 D_loss: 0.6783 D1_loss: 0.6833 D2_loss: 0.6854 D3_loss: 0.6907 Acc: 0.9524 D_Acc: 0.5681
+Total loss: 0.7780, w_main: 0.5000, 1: 0.2194, 2: 0.1799, 3: 0.0007
+Phase: test Loss: 0.0482 Acc: 0.9195
+Best Test Accuracy: 0.9270
+
+Epoch 81/105
+----------
+Pseudo size: 44 confid_threshold: 0.9404
+Phase: Pseudo_train Lr: 0.2091 Loss: 0.0050 Acc: 0.9167 Disc_Lam: 0.004487 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1975 Loss: 0.1523 D_loss: 0.6774 D1_loss: 0.6828 D2_loss: 0.6852 D3_loss: 0.6906 Acc: 0.9602 D_Acc: 0.5743
+Total loss: 0.7645, w_main: 0.5000, 1: 0.2196, 2: 0.1797, 3: 0.0007
+Phase: test Loss: 0.0438 Acc: 0.9258
+Best Test Accuracy: 0.9270
+
+Epoch 82/105
+----------
+Pseudo size: 47 confid_threshold: 0.9414
+Phase: Pseudo_train Lr: 0.2068 Loss: 0.0051 Acc: 0.9792 Disc_Lam: 0.004488 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1959 Loss: 0.1623 D_loss: 0.6807 D1_loss: 0.6825 D2_loss: 0.6851 D3_loss: 0.6906 Acc: 0.9512 D_Acc: 0.5591
+Total loss: 0.7761, w_main: 0.5000, 1: 0.2198, 2: 0.1796, 3: 0.0005
+Phase: test Loss: 0.0443 Acc: 0.9195
+Best Test Accuracy: 0.9270
+
+Epoch 83/105
+----------
+Pseudo size: 47 confid_threshold: 0.9404
+Phase: Pseudo_train Lr: 0.2046 Loss: 0.0028 Acc: 0.9792 Disc_Lam: 0.004489 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1943 Loss: 0.1602 D_loss: 0.6797 D1_loss: 0.6825 D2_loss: 0.6850 D3_loss: 0.6905 Acc: 0.9546 D_Acc: 0.5617
+Total loss: 0.7735, w_main: 0.5000, 1: 0.2202, 2: 0.1798, 3: 0.0000
+Phase: test Loss: 0.0502 Acc: 0.9195
+Best Test Accuracy: 0.9270
+
+Epoch 84/105
+----------
+Pseudo size: 40 confid_threshold: 0.9404
+Phase: Pseudo_train Lr: 0.2025 Loss: 0.0039 Acc: 1.0000 Disc_Lam: 0.004491 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1927 Loss: 0.1573 D_loss: 0.6803 D1_loss: 0.6825 D2_loss: 0.6850 D3_loss: 0.6905 Acc: 0.9524 D_Acc: 0.5620
+Total loss: 0.7709, w_main: 0.5000, 1: 0.2204, 2: 0.1796, 3: 0.0000
+Phase: test Loss: 0.0536 Acc: 0.9107
+Best Test Accuracy: 0.9270
+
+Epoch 85/105
+----------
+Pseudo size: 48 confid_threshold: 0.9389
+Phase: Pseudo_train Lr: 0.2004 Loss: 0.0058 Acc: 1.0000 Disc_Lam: 0.004492 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1912 Loss: 0.1576 D_loss: 0.6804 D1_loss: 0.6822 D2_loss: 0.6850 D3_loss: 0.6907 Acc: 0.9530 D_Acc: 0.5557
+Total loss: 0.7712, w_main: 0.5000, 1: 0.2205, 2: 0.1794, 3: 0.0000
+Phase: test Loss: 0.0424 Acc: 0.9245
+Best Test Accuracy: 0.9270
+
+Epoch 86/105
+----------
+Pseudo size: 63 confid_threshold: 0.9412
+Phase: Pseudo_train Lr: 0.1983 Loss: 0.0091 Acc: 0.9844 Disc_Lam: 0.004491 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1896 Loss: 0.1811 D_loss: 0.6797 D1_loss: 0.6822 D2_loss: 0.6851 D3_loss: 0.6906 Acc: 0.9490 D_Acc: 0.5714
+Total loss: 0.7944, w_main: 0.5000, 1: 0.2207, 2: 0.1793, 3: 0.0000
+Phase: test Loss: 0.0510 Acc: 0.9182
+Best Test Accuracy: 0.9270
+
+Epoch 87/105
+----------
+Pseudo size: 60 confid_threshold: 0.9402
+Phase: Pseudo_train Lr: 0.1963 Loss: 0.0076 Acc: 0.9375 Disc_Lam: 0.004488 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1881 Loss: 0.1800 D_loss: 0.6795 D1_loss: 0.6822 D2_loss: 0.6849 D3_loss: 0.6906 Acc: 0.9515 D_Acc: 0.5619
+Total loss: 0.7932, w_main: 0.5000, 1: 0.2208, 2: 0.1791, 3: 0.0002
+Phase: test Loss: 0.0440 Acc: 0.9333
+Best Test Accuracy: 0.9333
+
+Epoch 88/105
+----------
+Pseudo size: 56 confid_threshold: 0.9427
+Phase: Pseudo_train Lr: 0.1944 Loss: 0.0042 Acc: 1.0000 Disc_Lam: 0.004488 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1867 Loss: 0.1704 D_loss: 0.6824 D1_loss: 0.6824 D2_loss: 0.6848 D3_loss: 0.6906 Acc: 0.9530 D_Acc: 0.5480
+Total loss: 0.7850, w_main: 0.5000, 1: 0.2208, 2: 0.1789, 3: 0.0003
+Phase: test Loss: 0.0458 Acc: 0.9245
+Best Test Accuracy: 0.9333
+
+Epoch 89/105
+----------
+Pseudo size: 63 confid_threshold: 0.9412
+Phase: Pseudo_train Lr: 0.1925 Loss: 0.0093 Acc: 0.9844 Disc_Lam: 0.004488 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1853 Loss: 0.1673 D_loss: 0.6768 D1_loss: 0.6821 D2_loss: 0.6845 D3_loss: 0.6905 Acc: 0.9546 D_Acc: 0.5770
+Total loss: 0.7790, w_main: 0.5000, 1: 0.2208, 2: 0.1787, 3: 0.0005
+Phase: test Loss: 0.0478 Acc: 0.9132
+Best Test Accuracy: 0.9333
+
+Epoch 90/105
+----------
+Pseudo size: 51 confid_threshold: 0.9393
+Phase: Pseudo_train Lr: 0.1906 Loss: 0.0057 Acc: 0.9107 Disc_Lam: 0.004488 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1838 Loss: 0.1399 D_loss: 0.6788 D1_loss: 0.6816 D2_loss: 0.6847 D3_loss: 0.6906 Acc: 0.9624 D_Acc: 0.5633
+Total loss: 0.7525, w_main: 0.5000, 1: 0.2210, 2: 0.1785, 3: 0.0005
+Phase: test Loss: 0.0467 Acc: 0.9208
+Best Test Accuracy: 0.9333
+
+Epoch 91/105
+----------
+Pseudo size: 58 confid_threshold: 0.9406
+Phase: Pseudo_train Lr: 0.1888 Loss: 0.0048 Acc: 0.9062 Disc_Lam: 0.004487 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1825 Loss: 0.1570 D_loss: 0.6803 D1_loss: 0.6815 D2_loss: 0.6843 D3_loss: 0.6906 Acc: 0.9565 D_Acc: 0.5637
+Total loss: 0.7702, w_main: 0.5000, 1: 0.2212, 2: 0.1785, 3: 0.0003
+Phase: test Loss: 0.0523 Acc: 0.9157
+Best Test Accuracy: 0.9333
+
+Epoch 92/105
+----------
+Pseudo size: 51 confid_threshold: 0.9398
+Phase: Pseudo_train Lr: 0.1870 Loss: 0.0099 Acc: 0.9107 Disc_Lam: 0.004487 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1811 Loss: 0.1535 D_loss: 0.6782 D1_loss: 0.6814 D2_loss: 0.6844 D3_loss: 0.6905 Acc: 0.9562 D_Acc: 0.5707
+Total loss: 0.7657, w_main: 0.5000, 1: 0.2214, 2: 0.1784, 3: 0.0002
+Phase: test Loss: 0.0518 Acc: 0.9170
+Best Test Accuracy: 0.9333
+
+Epoch 93/105
+----------
+Pseudo size: 41 confid_threshold: 0.9400
+Phase: Pseudo_train Lr: 0.1852 Loss: 0.0083 Acc: 0.8542 Disc_Lam: 0.004487 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1798 Loss: 0.1648 D_loss: 0.6811 D1_loss: 0.6812 D2_loss: 0.6843 D3_loss: 0.6906 Acc: 0.9537 D_Acc: 0.5619
+Total loss: 0.7783, w_main: 0.5000, 1: 0.2216, 2: 0.1784, 3: 0.0000
+Phase: test Loss: 0.0444 Acc: 0.9296
+Best Test Accuracy: 0.9333
+
+Epoch 94/105
+----------
+Pseudo size: 61 confid_threshold: 0.9421
+Phase: Pseudo_train Lr: 0.1835 Loss: 0.0060 Acc: 0.9531 Disc_Lam: 0.004488 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1784 Loss: 0.1678 D_loss: 0.6799 D1_loss: 0.6811 D2_loss: 0.6840 D3_loss: 0.6906 Acc: 0.9549 D_Acc: 0.5605
+Total loss: 0.7807, w_main: 0.5000, 1: 0.2215, 2: 0.1781, 3: 0.0004
+Phase: test Loss: 0.0449 Acc: 0.9258
+Best Test Accuracy: 0.9333
+
+Epoch 95/105
+----------
+Pseudo size: 68 confid_threshold: 0.9414
+Phase: Pseudo_train Lr: 0.1819 Loss: 0.0036 Acc: 0.9444 Disc_Lam: 0.004490 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1772 Loss: 0.1741 D_loss: 0.6788 D1_loss: 0.6811 D2_loss: 0.6840 D3_loss: 0.6906 Acc: 0.9527 D_Acc: 0.5681
+Total loss: 0.7864, w_main: 0.5000, 1: 0.2217, 2: 0.1780, 3: 0.0002
+Phase: test Loss: 0.0428 Acc: 0.9296
+Best Test Accuracy: 0.9333
+
+Epoch 96/105
+----------
+Pseudo size: 52 confid_threshold: 0.9421
+Phase: Pseudo_train Lr: 0.1802 Loss: 0.0015 Acc: 0.9286 Disc_Lam: 0.004493 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1759 Loss: 0.1407 D_loss: 0.6792 D1_loss: 0.6808 D2_loss: 0.6842 D3_loss: 0.6906 Acc: 0.9574 D_Acc: 0.5659
+Total loss: 0.7533, w_main: 0.5000, 1: 0.2220, 2: 0.1780, 3: 0.0001
+Phase: test Loss: 0.0455 Acc: 0.9333
+Best Test Accuracy: 0.9333
+
+Epoch 97/105
+----------
+Pseudo size: 54 confid_threshold: 0.9427
+Phase: Pseudo_train Lr: 0.1786 Loss: 0.0041 Acc: 0.9643 Disc_Lam: 0.004496 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1746 Loss: 0.1534 D_loss: 0.6826 D1_loss: 0.6808 D2_loss: 0.6840 D3_loss: 0.6906 Acc: 0.9574 D_Acc: 0.5479
+Total loss: 0.7677, w_main: 0.5000, 1: 0.2219, 2: 0.1777, 3: 0.0004
+Phase: test Loss: 0.0499 Acc: 0.9308
+Best Test Accuracy: 0.9333
+
+Epoch 98/105
+----------
+Pseudo size: 59 confid_threshold: 0.9423
+Phase: Pseudo_train Lr: 0.1770 Loss: 0.0052 Acc: 0.9219 Disc_Lam: 0.004495 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1734 Loss: 0.1478 D_loss: 0.6797 D1_loss: 0.6808 D2_loss: 0.6839 D3_loss: 0.6906 Acc: 0.9555 D_Acc: 0.5673
+Total loss: 0.7606, w_main: 0.5000, 1: 0.2221, 2: 0.1777, 3: 0.0002
+Phase: test Loss: 0.0484 Acc: 0.9283
+Best Test Accuracy: 0.9333
+
+Epoch 99/105
+----------
+Pseudo size: 52 confid_threshold: 0.9419
+Phase: Pseudo_train Lr: 0.1755 Loss: 0.0055 Acc: 0.9286 Disc_Lam: 0.004496 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1722 Loss: 0.1398 D_loss: 0.6804 D1_loss: 0.6811 D2_loss: 0.6842 D3_loss: 0.6907 Acc: 0.9586 D_Acc: 0.5606
+Total loss: 0.7530, w_main: 0.5000, 1: 0.2223, 2: 0.1777, 3: 0.0000
+Phase: test Loss: 0.0490 Acc: 0.9270
+Best Test Accuracy: 0.9333
+
+Epoch 100/105
+----------
+Pseudo size: 58 confid_threshold: 0.9416
+Phase: Pseudo_train Lr: 0.1740 Loss: 0.0034 Acc: 0.9062 Disc_Lam: 0.004497 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1710 Loss: 0.1465 D_loss: 0.6788 D1_loss: 0.6806 D2_loss: 0.6839 D3_loss: 0.6906 Acc: 0.9590 D_Acc: 0.5648
+Total loss: 0.7587, w_main: 0.5000, 1: 0.2223, 2: 0.1774, 3: 0.0003
+Phase: test Loss: 0.0419 Acc: 0.9346
+Best Test Accuracy: 0.9346
+
+Epoch 101/105
+----------
+Pseudo size: 42 confid_threshold: 0.9429
+Phase: Pseudo_train Lr: 0.1725 Loss: 0.0045 Acc: 0.8750 Disc_Lam: 0.004498 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1698 Loss: 0.1462 D_loss: 0.6803 D1_loss: 0.6802 D2_loss: 0.6837 D3_loss: 0.6904 Acc: 0.9571 D_Acc: 0.5675
+Total loss: 0.7591, w_main: 0.5000, 1: 0.2225, 2: 0.1774, 3: 0.0001
+Phase: test Loss: 0.0433 Acc: 0.9333
+Best Test Accuracy: 0.9346
+
+Epoch 102/105
+----------
+Pseudo size: 52 confid_threshold: 0.9427
+Phase: Pseudo_train Lr: 0.1711 Loss: 0.0065 Acc: 0.9286 Disc_Lam: 0.004500 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1687 Loss: 0.1507 D_loss: 0.6786 D1_loss: 0.6803 D2_loss: 0.6837 D3_loss: 0.6905 Acc: 0.9583 D_Acc: 0.5634
+Total loss: 0.7627, w_main: 0.5000, 1: 0.2225, 2: 0.1772, 3: 0.0003
+Phase: test Loss: 0.0437 Acc: 0.9371
+Best Test Accuracy: 0.9371
+
+Epoch 103/105
+----------
+Pseudo size: 53 confid_threshold: 0.9433
+Phase: Pseudo_train Lr: 0.1697 Loss: 0.0045 Acc: 0.9464 Disc_Lam: 0.004498 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1676 Loss: 0.1435 D_loss: 0.6802 D1_loss: 0.6804 D2_loss: 0.6837 D3_loss: 0.6907 Acc: 0.9614 D_Acc: 0.5630
+Total loss: 0.7564, w_main: 0.5000, 1: 0.2227, 2: 0.1772, 3: 0.0001
+Phase: test Loss: 0.0391 Acc: 0.9384
+Best Test Accuracy: 0.9384
+
+Epoch 104/105
+----------
+Pseudo size: 45 confid_threshold: 0.9435
+Phase: Pseudo_train Lr: 0.1683 Loss: 0.0044 Acc: 0.9375 Disc_Lam: 0.004498 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1664 Loss: 0.1472 D_loss: 0.6807 D1_loss: 0.6803 D2_loss: 0.6837 D3_loss: 0.6907 Acc: 0.9568 D_Acc: 0.5564
+Total loss: 0.7603, w_main: 0.5000, 1: 0.2227, 2: 0.1770, 3: 0.0003
+Phase: test Loss: 0.0413 Acc: 0.9358
+Best Test Accuracy: 0.9384
+
+Epoch 105/105
+----------
+Pseudo size: 50 confid_threshold: 0.9431
+Phase: Pseudo_train Lr: 0.1669 Loss: 0.0047 Acc: 0.8929 Disc_Lam: 0.004498 Disc_bias: 0.5000 
+Phase: train lr_mult: 0.1653 Loss: 0.1386 D_loss: 0.6799 D1_loss: 0.6798 D2_loss: 0.6833 D3_loss: 0.6907 Acc: 0.9611 D_Acc: 0.5665
+Total loss: 0.7511, w_main: 0.5000, 1: 0.2229, 2: 0.1771, 3: 0.0000
+Phase: test Loss: 0.0453 Acc: 0.9346
+Best Test Accuracy: 0.9384
+
+Training complete in 203m 28s
+Best val Acc: 0.938365
