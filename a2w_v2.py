@@ -92,6 +92,7 @@ save_dir = './models/'
 dsets = {}
 dsets['source'] = datasets.ImageFolder(data_dir+source_set+'/images', data_transforms['source'])
 dsets['target'] = datasets.ImageFolder(data_dir+target_set+'/images', data_transforms['target'])
+dsets['target_test'] = datasets.ImageFolder(data_dir+target_set+'/images', data_transforms['test'])
 dsets['pseudo_source'] = datasets.ImageFolder(data_dir+source_set+'/images', data_transforms['source'])
 dsets['pseudo'] = []
 
@@ -221,12 +222,12 @@ def train_model(model, optimizer, pseudo_optimizer, lr_scheduler, pseu_lr_schedu
 
                     confid_threshold = 1 / (1 + np.exp(-2.4*epoch_acc_s))
 
-                    dset_loaders['target'] = torch.utils.data.DataLoader(dsets['target'],
+                    dset_loaders['target_test'] = torch.utils.data.DataLoader(dsets['target_test'],
                                                         batch_size=1, shuffle=True)
 
                     total_pseudo_errors = 0
 
-                    for target_inputs, target_labels in dset_loaders['target']:
+                    for target_inputs, target_labels in dset_loaders['target_test']:
 
                         target_inputs = target_inputs.cuda()
 
