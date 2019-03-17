@@ -501,8 +501,11 @@ def train_model(model, optimizer, pseudo_optimizer, lr_scheduler, pseu_lr_schedu
                                                        Variable(domain_labels.cuda())
 
                         source_weight_tensor = torch.FloatTensor([1.]*source_batchsize)
-                        pseudo_weights_tensor = torch.FloatTensor(pseudo_weights)
-                        class_weights_tensor = torch.cat((source_weight_tensor, pseudo_weights_tensor),0)
+                        pseudo_weights_tensor = torch.FloatTensor(pseudo_weights).squeeze(-1)
+                        if pseudo_size == 0:
+                            class_weights_tensor = source_weight_tensor
+                        else:
+                            class_weights_tensor = torch.cat((source_weight_tensor, pseudo_weights_tensor),0)
                         dom_weights_tensor = torch.FloatTensor([0.]*source_batchsize+[1.]*pseudo_batchsize)
 
                         ini_weight = Variable(torch.cat((class_weights_tensor, dom_weights_tensor),0).squeeze().cuda())
