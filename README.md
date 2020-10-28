@@ -15,3 +15,10 @@ Please Cite:
 &nbsp;&nbsp;pages={3801-3809},  
 &nbsp;&nbsp;year={2018}   
 }
+
+We also have a T-PAMI Journal Extension version for CAN which is called Self-Paced Collaborative and Adversarial Network.
+
+Please refer to the following repo for more details.
+
+https://github.com/zhangweichen2006/SPCAN
+
